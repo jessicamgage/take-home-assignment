@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "==5.*"
+pytest-django = "==4.*"
+pytest-mock = "==1.*"
+
+[packages]
+Django = "==3.2.10"
+django-cors-headers = "==3.8.0"
+djangorestframework = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.8"
